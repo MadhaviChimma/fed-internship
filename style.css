@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    overflow-x:hidden;
+}
+.bannerBgImage{
+    height:100vh;
+    background: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-h5-web-design-sci-fi-background-banner-image_156041.jpg");
+    background-size:cover;
+    position: relative;
+}
+
+.col-md-8{
+    font-size: 1.15rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card-t
+{
+    font-size: 3rem;
+    text-align:center;
+    
+}
+.text-differ{
+    font-size:55px;
+    text-align:center;
+}
+
+.bannerText{
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+}
+.bannerTitle{
+    font-size: 4rem;
+}
+.bannerDesc{
+    font-size: 2rem;
+}
+
+.card{
+    cursor:pointer;
+}
+
+.card:hover{
+    background-color: rgb(38, 208, 208);
+    border: 2px solid rgb(92, 102, 192);
+}
+
+.bIcon{
+    width:100%;
+    text-align: center;
+    font-size: 40px;
+}
+.img-fluid:hover{
+    border: 2px solid rgb(176, 224, 80);
+}
+
+.card-img-top{
+    height: 50vh;
+}
+.box1
+{
+    height: 70px;
+    width:70px;
+    background-origin: padding-box;
+}
